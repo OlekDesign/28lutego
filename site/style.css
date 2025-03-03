@@ -1,0 +1,25 @@
+h1 {
+	color: green;
+		}
+.bobo {
+	color: red;
+		}
+.bobo p {
+	font-weight: 600;
+	cursor: pointer;
+		}
+li {
+	list-style: none;
+		}
+a:hover {
+	color: green
+		}
+ul li:nth-child(odd) {
+	font-size: 24px;
+		}
+ul li:nth-child(1):hover {
+	background-color: #123123;
+		}
+body {
+	background-color: #fff123;
+}
