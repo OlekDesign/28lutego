@@ -1,4 +1,42 @@
-h1 {
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fff123;
+	font-family: sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 120%;
+}
+p {
+	margin: 2em;}
+#box {
+	position: relative;
+	top: 2em;
+	left: 2em;
+	background-color: pink;
+}
+#orange {
+	width: 2em;
+	height: 2em;
+	background-color: orange;
+	position: relative;
+	bottom: 1em;
+	right: 1em;
+}
+#blue {
+	width: 4em;
+	height: 4em;
+	background-color: blue;
+}
+@media (max-width: 900) {
+	body {
+		background-color: blue;
+	}
+}
+/*h1 {
 	color: green;
 		}
 .bobo {
@@ -10,16 +48,41 @@ h1 {
 		}
 li {
 	list-style: none;
+	font-size: 2em;
 		}
 a:hover {
 	color: green
 		}
 ul li:nth-child(odd) {
-	font-size: 24px;
+	font-size: 1.2em;
 		}
 ul li:nth-child(1):hover {
 	background-color: #123123;
 		}
-body {
-	background-color: #fff123;
+
+
+p {
+	width: 50%;
+	border: 1px solid black;
+	float: left;
+	padding: 10px;
 }
+
+.box {
+	background: repeat-x center url(https://ideogram.ai/assets/progressive-image/balanced/response/6wFJzknJRG6Nm_pPRxhAEA) maroon;
+	padding: 24px;
+	margin: 24px;
+	position: relative;
+	overflow: auto;
+
+}
+#p1 {
+	background-color: white;
+	position: relative;
+	top: 20px
+	left: 20px;
+
+}
+#p2 {
+
+}*/
